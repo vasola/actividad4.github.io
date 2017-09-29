@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica;}
+
+.header{
+    padding: 50px 10px;
+    background-image: url(../images/bg.jpeg);
+    background-position: center
+}
+
+.header img{
+    width: 10%;
+    padding: 1% 3% 0
+}
+
+.header nav{
+    float: right;
+    margin:1% 3% 0;
+}
+
+.header nav li{
+    display: inline;
+    margin: 30px;
+}
+
+.header nav li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.header nav li a:hover{
+    color: aliceblue;
+}
+
+h1{
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.botones{
+    padding:0 40%;
+}
+.boton1,.boton2{
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1em;
+    color: white;
+    border: none
+}
+
+.boton1{
+    background-color:dodgerblue;
+}
+
+.boton2{
+    background-color: forestgreen;
+}
+
+.header p{
+    color: white;
+    width: 50%;
+    margin:2% 25%;
+    text-align: center;
+    font-size: 1.2em;}
+
+.bootcamp{
+    background: url(../images/viewing-gallery-for-happy-people.png) no-repeat;
+    background-position: center bottom;
+    background-size: 400px auto;
+    min-height: 500px;
+    background-color: white;
+}
+
+.bootcamp h2,.info h3{
+    text-transform: uppercase;
+    margin:0 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+.bootcamp p, .info p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.info{
+    height: 350px;
+    background-color: #e2dede}
+
+.info h3{
+    padding: 3%
+}
+
+.info .boton3{
+    padding: 5% 45% 2%;
+}
+.info a button{
+    background-color:dodgerblue;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1em;
+    color: white;
+    border: none;
+}
+
+.info span{
+    text-align: center;
+    margin: 0 40%;
+}
+
+.contacto{
+    height: 200px;   
+}
+
+.cont, .suscribe{
+    float: left;
+    margin: 2% 10%
+}
+
+.cont h4, .suscribe h5{
+    font-size: 1.1em;
+}
+.cont p, .suscribe p{
+   
+    line-height: 30px
+}
+
+.suscribe input, .suscribe button{
+    padding: 5px 50px;
+    margin: 10px 0;
+}
+
+.suscribe button{
+    background-color: white;
+    border: 1px solid grey}
