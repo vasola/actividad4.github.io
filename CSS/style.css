@@ -93,7 +93,8 @@ h1{
 
 .info{
     height: 350px;
-    background-color: #e2dede}
+    background-color: #e2dede;
+    text-align: center;}
 
 .info h3{
     padding: 3%
@@ -111,10 +112,7 @@ h1{
     border: none;
 }
 
-.info span{
-    text-align: center;
-    margin: 0 40%;
-}
+
 
 .contacto{
     height: 200px;   
